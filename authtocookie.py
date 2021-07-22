@@ -6,7 +6,7 @@ import requests
 
 PORT = 9000
 AUTH_HEADER = "X-Api-Key"
-AUTH_KEY = "HELLOWORLD69"
+AUTH_KEY = ""
 DEFAULT_USER_AGENT = requests.get("https://jnrbsn.github.io/user-agents/user-agents.json").json()[0]
 REAL_IP = requests.get("https://api.ipify.org/?format=json").json()["ip"]
 
